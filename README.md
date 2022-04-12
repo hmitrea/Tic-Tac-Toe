@@ -2,6 +2,10 @@
 
 A simple Tic Tac Toe game which will display the user who won, be able to restart the game, nice visual UI (could go on and on)
 
+# To Start
+
+yarn install then yarn start
+
 # Purpose
 
 - Build a project in react utilizing hooks to showcase my skills and where I am at
