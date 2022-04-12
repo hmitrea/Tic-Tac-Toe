@@ -7,16 +7,16 @@ let changeSymbol = 1;
 
 const Square = ({ cellNum }) => {
   const [symbol, symbolChange] = useState('-');
-  console.log('the cellNum and symbol is', cellNum, symbol);
   const handleClick = (square) => {
     // The user cannot click again to change the box
     if (symbol !== '-') {
       alert('You have clicked on this before');
       changeSymbol--;
     }
+
     if (changeSymbol % 2 === 1) {
-      changeSymbol++;
       symbolChange('X');
+      changeSymbol++;
     } else {
       symbolChange('O');
       changeSymbol++;
@@ -24,7 +24,9 @@ const Square = ({ cellNum }) => {
   };
   return (
     <>
-      <td onClick={() => handleClick(cellNum)}>{symbol}</td>
+      <td className={`square`} onClick={() => handleClick(cellNum)}>
+        {symbol}
+      </td>
     </>
   );
 };

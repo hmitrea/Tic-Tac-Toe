@@ -1,6 +1,6 @@
 import React from 'react';
 import Square from './Square';
-// import Winner from './Winner';
+import Winner from './Winner';
 import '../StyleSheet/Board.css';
 
 const Board = () => {
@@ -28,6 +28,7 @@ const Board = () => {
         </table>
       </div>
       {/*  // This will restart the game at any point by refreshing the page */}
+      <Winner />
       <button onClick={() => window.location.reload()}>Restart</button>
     </>
   );
