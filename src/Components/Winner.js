@@ -32,20 +32,20 @@ const Winner = () => {
 
     // Horizontal
     if (symbol0 === symbol1 && symbol1 === symbol2 && symbol0 !== '-') {
-      console.log('We have a winner');
+      console.log('We have a winner', symbol0);
     } else if (symbol3 === symbol4 && symbol4 === symbol5 && symbol3 !== '-') {
-      console.log('We have a winner');
+      console.log('We have a winner', symbol3);
     } else if (symbol6 === symbol7 && symbol7 === symbol8 && symbol6 !== '-') {
-      console.log('We have a winner');
+      console.log('We have a winner', symbol6);
     }
 
     // Vertical
     if (symbol0 === symbol3 && symbol3 === symbol6 && symbol0 !== '-')
-      console.log('We have a winner');
+      console.log('We have a winner', symbol0);
     else if (symbol1 === symbol4 && symbol4 === symbol7 && symbol1 !== '-')
-      console.log('We have a winner');
+      console.log('We have a winner', symbol1);
     else if (symbol2 === symbol5 && symbol5 === symbol8 && symbol1 !== '-')
-      console.log('We have a winner');
+      console.log('We have a winner', symbol2);
 
     // Diagonal
     if (
@@ -54,11 +54,11 @@ const Winner = () => {
       symbol0 === symbol4 &&
       symbol4 === symbol8
     ) {
-      console.log('We have a winner');
+      console.log('We have a winner', symbol0);
     } else if (
       symbol2 !== '-' &&
       symbol4 !== '-' &&
-      symbol2 === '-' &&
+      symbol2 !== '-' &&
       symbol2 === symbol4 &&
       symbol4 === symbol6
     )
