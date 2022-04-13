@@ -20,4 +20,5 @@ At the end of the week(Satruday April 16th) it'll be deployed (on Github Pages o
 # Current Progress
 
 **Monday April 11th**: Utilized create-react-app(yarn), moved all the components, styling, testing in appropriate folders. Build the board, alongside the logic which allows the user to click on a box and change it's value. User Cannot click on the same box twice, Button to restart the game.
+
 **Tuesday April 12th**: Continued working in the Winner component and through many conditionals got to have displayed the correct combos of XO, however it needs to be able to be displayed on the Screen so the user can see not just in the console. The code if time allows should be refactored.
