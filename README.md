@@ -26,3 +26,5 @@ At the end of the week(Satruday April 16th) it'll be deployed (on Github Pages o
 **Wed April 13**: Figured out the bug and used the useState hook to figure out how to showcase the winnner, it's only done if the user presses the button for now(should be done in an asnyc manner). If the user double presses on a symbol, it could change it so gotta iron that out.
 For the next few days add some nice style to the page and then deploy it
 When debugging I also learned to write the things I tried not to do them to often because I panick and repeat things sometimes.
+
+**Thurs April 14**: No updates for today. Got caught up with other things.
